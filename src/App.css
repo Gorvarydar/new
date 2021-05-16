@@ -13,25 +13,3 @@
   grid-area: c;
   background-color: cornflowerblue;
 }
-
-.header {
-  grid-area: h;
-  background-color: darkcyan;
-}
-
-.header img {
-  width: 60px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: darkorange;
-}
-
-.content {
-  grid-area: c;
-  background-color:violet;
-}
-
-
-

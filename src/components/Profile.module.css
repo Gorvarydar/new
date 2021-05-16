@@ -1,0 +1,14 @@
+
+.content img {
+  width: 55%;
+  height: 300px;
+}
+
+.content {
+  grid-area: c;
+  background-color:violet;
+}
+
+.item {
+  color:greenyellow;
+}
