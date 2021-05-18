@@ -10,10 +10,9 @@ const MyPosts = () => {
     </div>
     
     <div className={s.posts}>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post message='Hi, Mr.Fox, where is my chicken?' />
+      <Post message="I don't now,I'am still hungrry... "/>
+    
      </div>
   </div>
 
