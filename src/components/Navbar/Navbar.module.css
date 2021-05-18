@@ -11,3 +11,8 @@
 .item.active {
   color: green;
 }
+
+.item img {
+  width: 54px;
+} 
+

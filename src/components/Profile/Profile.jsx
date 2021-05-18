@@ -9,7 +9,6 @@ const Profile = () => {
       ava
     </div>
       <MyPosts />
-      
   </div>
 }
 
