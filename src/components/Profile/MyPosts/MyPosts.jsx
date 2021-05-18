@@ -8,14 +8,15 @@ const MyPosts = () => {
       <button>Add post</button>
       <button>Remove posts</button>
     </div>
-    
-    <div className={s.posts}>
-      <Post message='Hi, Mr.Fox, where is my chicken?' />
-      <Post message="I don't now,I'am still hungrry... "/>
-    
-     </div>
-  </div>
 
+    <div className={s.posts}>
+      <div className={s.item}>
+        <Post message="Mmm,Hi..." />
+        <Post message='Hi, Mr.Fox, where is my chicken?' />
+        <Post message="I don't now,I'am still hungrry... " />
+      </div>
+    </div>
+  </div>
 }
 
 export default MyPosts;

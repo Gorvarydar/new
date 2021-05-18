@@ -1,4 +1,4 @@
-import s from'./Navbar.module.css'
+import s from './Navbar.module.css'
 const Navbar = () => {
   return <nav className={s.nav}>
     <div className={s.item}>
@@ -7,10 +7,7 @@ const Navbar = () => {
     <div className={`${s.item} ${s.active}`}>
       <a>Messages</a>
     </div>
-   
-  
-      <a>News</a>
-   
+    <a>News</a>
     <div className={s.item}>
       <a>Music</a>
     </div>

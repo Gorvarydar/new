@@ -3,13 +3,12 @@ import s from './Post.module.css'
 const Post = (props) => {
   return (
     <div className={s.item}>
-      <img src='https://lh3.googleusercontent.com/proxy/58mFDLvjpn5Du-fcApmfqs38IuJ9O99KKXh1yPQ3vczMxom186ZVVTAvx1jSprA4jDQ3Ad5WdP5xHHTQc84Msk57uOAR6EyiQZP0M6B6_wWDXX83Ku7zlzqN5QondHxWyRBqLh7jhj0dDyUL4hlY2mEyJcA' />
-          {props.message}
-          <div>
-            <span>like</span>
-          </div>
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1ktNbWn6OTP13-EBvulA9rs0vBB--qn9EQ&usqp=CAU' />
+      {props.message}
+      <div>
+        <span>like</span>
+      </div>
     </div>
-  
   )
 }
 
