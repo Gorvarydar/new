@@ -11,9 +11,11 @@ const MyPosts = () => {
 
     <div className={s.posts}>
       <div className={s.item}>
-        <Post message="Mmm,Hi..." />
-        <Post message='Hi, Mr.Fox, where is my chicken?' />
-        <Post message="I don't now,I'am still hungrry... " />
+        <Post message="Mmm,Hi..." likeCounts=' 5' />
+        <Post message='Hi, Mr.Fox, where is my chicken?' likeCounts=' 3'/>
+        <Post message="I don't now,I'am still hungrry... " likeCounts=' 21'/>
+       
+        
       </div>
     </div>
   </div>
