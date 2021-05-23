@@ -1,12 +1,11 @@
-import s from './News.module';
+import s from './News.module.css';
 
 const News = (props) => {
     return (
         <div>
-            News
+         News, hot news!
         </div>
     )
 }
 
-
-export default News
+export default News;
