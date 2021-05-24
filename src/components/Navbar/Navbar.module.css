@@ -2,10 +2,16 @@
 .nav {
   grid-area: n;
   background-color: rgb(245, 141, 13);
+  padding: 50;
+ 
 }
 
 .item a{
   color: white;
+  text-decoration: none;
+  line-height: 1.5em;
+  
+
 }
 
 .item a.activeLink {
