@@ -1,14 +1,14 @@
 
 .nav {
   grid-area: n;
-  background-color: darkorange;
+  background-color: rgb(245, 141, 13);
 }
 
-.item {
-  color: aliceblue;
+.item a{
+  color: white;
 }
 
-.item.active {
+.item a.activeLink {
   color: green;
 }
 
