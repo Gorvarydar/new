@@ -19,34 +19,43 @@ const Message = (props) => {
 
 const Dialogs = (props) => {
 
-    let dialogsData = [
+    let dialogs = [
         { id: 1, name: 'first' },
         { id: 2, name: 'second' },
         { id: 3, name: 'third' },
         { id: 4, name: 'fourth' }
     ]
 
-    let messagesData = [
-        { id: 1, text: 'What`s uuuuuuup!!!!'},
-        { id: 2, text: 'Niiiice!!!!'},
-        { id: 3, text: 'Yeahhhhh...'},
-        { id: 4, text: 'YO!!!'},
+    let messages = [
+        { id: 1, text: 'What`s uuuuuuup!!!!' },
+        { id: 2, text: 'Niiiice!!!!' },
+        { id: 3, text: 'Yeahhhhh...' },
+        { id: 4, text: 'YO!!!' },
     ]
+    let dialogsElements = dialogs
+        .map(d => <DialogItem name={d.name} id={d.id} />)
+
+    let messagesElements = messages
+        .map((m) => <Message text={m.text} />)
+
+
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
-                <DialogItem name={dialogsData[1].name} id={dialogsData[1].id} />
-                <DialogItem name={dialogsData[2].name} id={dialogsData[2].id} />
-                <DialogItem name={dialogsData[3].name} id={dialogsData[3].id} />
+            {dialogsElements}
+                {/* <DialogItem name={dialogs[0].name} id={dialogs[0].id} />
+                <DialogItem name={dialogs[1].name} id={dialogs[1].id} />
+                <DialogItem name={dialogs[2].name} id={dialogs[2].id} />
+                <DialogItem name={dialogs[3].name} id={dialogs[3].id} /> */}
             </div>
 
             <div className={s.messages}>
-                <Message text={messagesData[0].text} />
-                <Message text={messagesData[1].text} />
-                <Message text={messagesData[2].text} />
-                <Message text={messagesData[3].text} />
-            
+            {messagesElements}
+                {/* <Message text={messages[0].text} />
+                <Message text={messages[1].text} />
+                <Message text={messages[2].text} />
+                <Message text={messages[3].text} /> */}
+
             </div>
         </div>
     )
