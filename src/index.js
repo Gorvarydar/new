@@ -3,30 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import state from './redux/state'
 
-let posts = [
-  { id: 1, message: 'Mmm,Hi...', counts: 5},
-  { id: 2, message: 'Hi, Mr.Fox, where is my chicken?', counts: 3 },
-  { id: 3, message: "I don't now,I'am still hungrry...", counts: 21 },
-]
-let messages = [
-  { id: 1, text: 'What`s uuuuuuup!!!!' },
-  { id: 2, text: 'Niiiice!!!!' },
-  { id: 3, text: 'Yeahhhhh...' },
-  { id: 4, text: 'YO!!!' },
-]
-
-let dialogs = [
-  { id: 1, name: 'first' },
-  { id: 2, name: 'second' },
-  { id: 3, name: 'third' },
-  { id: 4, name: 'fourth' }
-]
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <App posts={posts} dialogs={dialogs} messages={messages}/>
+
+    <App state={state} />
   </React.StrictMode>,
   document.getElementById('root')
 );
