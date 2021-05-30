@@ -1,5 +1,7 @@
+/* eslint-disable */
 import { NavLink } from 'react-router-dom';
 import s from './../Dialogs.module.css';
+import React from 'react'
 
 const DialogItem = (props) => {
     let path = '/messages/' + props.id;

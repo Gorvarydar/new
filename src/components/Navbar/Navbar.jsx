@@ -1,3 +1,5 @@
+/* eslint-disable */
+import React from 'react'
 import { NavLink } from 'react-router-dom';
 import s from './Navbar.module.css'
 const Navbar = () => {

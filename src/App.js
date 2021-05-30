@@ -1,3 +1,5 @@
+/* eslint-disable */
+import React from 'react'
 import './App.css';
 import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
@@ -8,8 +10,6 @@ import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/SettingsPage/Settings';
 
-
-
 const App = (props) => {
 
   return (
@@ -17,7 +17,7 @@ const App = (props) => {
       <div className='app-wrapper'>
         <Header />
         <Navbar />
-        <div class='app-wrapper-content'>
+        <div className='app-wrapper-content'>
 
           <Route path='/messages'
             render={() => <Dialogs

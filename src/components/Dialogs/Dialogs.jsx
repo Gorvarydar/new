@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import DialogItem from './DialogItem/DialogItem';
 import s from './Dialogs.module.css';

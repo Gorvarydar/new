@@ -1,4 +1,6 @@
+/* eslint-disable */
 import s from './Post.module.css'
+import React from 'react'
 
 const Post = (props) => {
   return (
