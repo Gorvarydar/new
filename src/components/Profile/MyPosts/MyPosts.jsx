@@ -1,7 +1,7 @@
 
 /* eslint-disable */
 import React from 'react'
-import { updateNewPostText } from '../../../redux/state'
+// import { updateNewPostText } from '../../../redux/state'
 import s from './MyPosts.module.css'
 import Post from './Post/Post'
 
@@ -14,11 +14,10 @@ const MyPosts = (props) => {
     
     let addPosts = () => {
      props.addPost();
-
     }
     
     let removePosts =() => {
-      prompt('dsdsdsd')
+      prompt('Are you shure?')
     }
 
     let onPostChange = () => {

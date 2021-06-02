@@ -1,10 +1,9 @@
 /* eslint-disable */
-import React from 'react';
-
 
 import state from './redux/state'
 import reportWebVitals from './reportWebVitals';
 import {rerenderEntireTree} from './render'
+
 
   rerenderEntireTree(state);
 
@@ -13,3 +12,4 @@ import {rerenderEntireTree} from './render'
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
